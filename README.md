@@ -1,2 +1,2 @@
 # NewApp
-Just checkinf some reactjs functinalities
+Just checking some reactjs functinalities
