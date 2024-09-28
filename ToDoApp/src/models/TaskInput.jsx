@@ -1,5 +1,6 @@
 import { useState } from "react";
 import TaskItem from "./TaskItem";
+import styles from "./taskinput.module.css";
 
 export default function TaskInput() {
   const [task, setTask] = useState("");
@@ -12,7 +13,7 @@ export default function TaskInput() {
   }
 
   return (
-    <div>
+    <div className={styles.mainbody}>
       <form onSubmit={submitHandler}>
         <input
           type="text"
