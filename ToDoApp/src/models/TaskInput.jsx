@@ -9,7 +9,7 @@ export default function TaskInput() {
   return (
     <div className={styles.mainbody}>
       <Form taskList={taskList} setTaskList={setTaskList} />
-      <TaskList taskList={taskList} />
+      <TaskList taskList={taskList} setTaskList={setTaskList} />
     </div>
   );
 }
