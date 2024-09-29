@@ -1,5 +1,28 @@
 .mainbody {
+  list-style-type: none;
   padding: 20px;
-  margin: 5px;
-  background-color: yellowgreen;
+  margin: 0em auto;
+  font-size: 1em;
+  font-size: 1.5em;
+}
+
+.deletebutton {
+  margin-left: 1em;
+  float: right;
+  padding: 0.7em 1em;
+  cursor: pointer;
+  display: inline-block;
+  background-color: rgb(72, 124, 255);
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+}
+
+.separator {
+  border: 1px solid rgba(0, 0, 0, 0.219);
+}
+
+.container {
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
