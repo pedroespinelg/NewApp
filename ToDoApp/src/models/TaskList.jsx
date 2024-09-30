@@ -7,7 +7,7 @@ export default function TaskList({ taskList, setTaskList }) {
       {taskList.map((item) => (
         <TaskItem
           key={item.name}
-          task={item.name}
+          task={item}
           taskList={taskList}
           setTaskList={setTaskList}
         />
