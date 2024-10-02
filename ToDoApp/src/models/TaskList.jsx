@@ -5,13 +5,8 @@ export default function TaskList({ taskList, setTaskList }) {
   return (
     <ul className={styles.tasklist}>
       {taskList.map((item) => (
-        <div>
-          <TaskItem
-            key={item.name}
-            task={item}
-            taskList={taskList}
-            setTaskList={setTaskList}
-          />
+        <div key={item.name}>
+          <TaskItem task={item} taskList={taskList} setTaskList={setTaskList} />
         </div>
       ))}
     </ul>
